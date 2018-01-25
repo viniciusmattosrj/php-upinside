@@ -10,6 +10,11 @@
         $teste = new ClassesObjetos();
         $teste->getClass('De introdução','mostrar uma classe');
         $teste->verClass();
+        
+        /* Objetos armazenando apenas 1 espaço na memória */
+        $teste->Classe = 'Classe 2';
+        $teste->Funcao = 'Ver os atributos';
+        $teste->verClass();
       ?>       
    </body>    
 </html>
