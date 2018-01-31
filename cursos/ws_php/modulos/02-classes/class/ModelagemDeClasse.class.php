@@ -45,6 +45,5 @@ class ModelagemDeClasse {
     public function DarEcho($Mensagem)
     {
         echo "<p>{$Mensagem}</p>";
-    }
-    
+    }    
 }
