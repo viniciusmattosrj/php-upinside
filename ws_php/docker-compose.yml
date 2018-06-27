@@ -48,9 +48,9 @@ services:
         links:
             - postgres:localhost_postgres
 
-    gearman:
-        image: viniciusmattosrj/gearman:1.0.6
-        container_name: gearman_1
-        restart: always
-        ports:
-            - "4730:4730"
+ #   gearman:
+ #       image: viniciusmattosrj/gearman:1.0.6
+ #       container_name: gearman_1
+ #       restart: always
+ #       ports:
+ #           - "4730:4730"
