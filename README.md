@@ -92,8 +92,8 @@ mysql -u root -p php_upinside < /var/lib/mysql57/php_upinside.sql
 Para o acesso no <strong>MYSQL</strong> database administration tool, use http://localhost:8080 e use as credênciais abaixo:
 
   - server: 10.11.0.3
-  - username:
-  - password:
+  - username: root
+  - password: A123456
 
 
 ## Contribuições
